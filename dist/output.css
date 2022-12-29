@@ -521,6 +521,24 @@ html {
   width: 100%;
 }
 
+@media (min-width: 280px) {
+  .container {
+    max-width: 280px;
+  }
+}
+
+@media (min-width: 360px) {
+  .container {
+    max-width: 360px;
+  }
+}
+
+@media (min-width: 412px) {
+  .container {
+    max-width: 412px;
+  }
+}
+
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
@@ -1765,6 +1783,10 @@ html {
   padding: 1.2em;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .pb-9 {
   padding-bottom: 2.25rem;
 }
@@ -2284,9 +2306,58 @@ html {
   text-align: center;
 }
 
+@media (min-width: 280px) {
+  .sm-02\:leading-8 {
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 360px) {
+  .sm-01\:w-\[16em\] {
+    width: 16em;
+  }
+
+  .sm-01\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .sm-01\:leading-7 {
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 412px) {
+  .sm-03\:w-\[20em\] {
+    width: 20em;
+  }
+
+  .sm-03\:w-\[22em\] {
+    width: 22em;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
+  }
+
+  @media (min-width: 280px) {
+    .sm\:container {
+      max-width: 280px;
+    }
+  }
+
+  @media (min-width: 360px) {
+    .sm\:container {
+      max-width: 360px;
+    }
+  }
+
+  @media (min-width: 412px) {
+    .sm\:container {
+      max-width: 412px;
+    }
   }
 
   @media (min-width: 640px) {
@@ -2333,5 +2404,15 @@ html {
     .dark\:lg\:hover\:\[paint-order\:markers\]:hover {
       paint-order: markers;
     }
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:w-\[23\.9em\] {
+    width: 23.9em;
+  }
+
+  .xl\:pt-8 {
+    padding-top: 2rem;
   }
 }
